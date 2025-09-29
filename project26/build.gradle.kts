@@ -1,0 +1,28 @@
+plugins{ java }
+ dependencies{ implementation("org.wildfly.core:wildfly-server:29.0.1.Final")}
+dependencies{ implementation(project(":project1"))}
+dependencies{ implementation(project(":project2"))}
+dependencies{ implementation(project(":project3"))}
+dependencies{ implementation(project(":project4"))}
+dependencies{ implementation(project(":project5"))}
+dependencies{ implementation(project(":project6"))}
+dependencies{ implementation(project(":project7"))}
+dependencies{ implementation(project(":project8"))}
+dependencies{ implementation(project(":project9"))}
+dependencies{ implementation(project(":project10"))}
+dependencies{ implementation(project(":project11"))}
+dependencies{ implementation(project(":project12"))}
+dependencies{ implementation(project(":project13"))}
+dependencies{ implementation(project(":project14"))}
+dependencies{ implementation(project(":project15"))}
+dependencies{ implementation(project(":project16"))}
+dependencies{ implementation(project(":project17"))}
+dependencies{ implementation(project(":project18"))}
+dependencies{ implementation(project(":project19"))}
+dependencies{ implementation(project(":project20"))}
+dependencies{ implementation(project(":project21"))}
+dependencies{ implementation(project(":project22"))}
+dependencies{ implementation(project(":project23"))}
+dependencies{ implementation(project(":project24"))}
+dependencies{ implementation(project(":project25"))}
+dependencies{ implementation(project(":project26"))}
