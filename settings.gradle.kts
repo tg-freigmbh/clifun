@@ -13,7 +13,7 @@ dependencyResolutionManagement {
 
 plugins {
     // Use the Foojay Toolchains plugin to automatically download JDKs required by subprojects.
-    id("org.gradle.toolchains.foojay-resolver-convention") version "0.8.0"
+    id("org.gradle.toolchains.foojay-resolver-convention") version "1.0.0"
 }
 
 // Include the `app` and `utils` subprojects in the build.
@@ -21,5 +21,9 @@ plugins {
 // Learn more about structuring projects with Gradle - https://docs.gradle.org/8.7/userguide/multi_project_builds.html
 include(":app")
 include(":utils")
+ (1..1000).forEach{
+    include(":project$it")
+}
+
 
 rootProject.name = "untitled1"

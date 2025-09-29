@@ -10,6 +10,10 @@ plugins {
 dependencies {
     // Project "app" depends on project "utils". (Project paths are separated with ":", so ":utils" refers to the top-level "utils" project.)
     implementation(project(":utils"))
+    (1..1_000).forEach {
+        implementation(project(":project$it"))
+        //implementation((files("hello$it")))
+    }
 }
 
 application {
